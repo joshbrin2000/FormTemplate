@@ -8,7 +8,7 @@
     margin: 0px;
 }
 
-a{
+.left-side a{
     color: whitesmoke;
 }
 
@@ -63,4 +63,10 @@ body{
     position: relative;
     top: 85vh;
     color: whitesmoke;
+}
+
+.hook-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
