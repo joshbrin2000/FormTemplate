@@ -1,3 +1,17 @@
-body{
-    background-color: blueviolet;
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 100vh;
+    width: auto;
+    object-fit: fill;
+    display: block;
+}
+
