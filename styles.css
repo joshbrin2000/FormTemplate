@@ -1,3 +1,9 @@
+@font-face {
+    font-family: odinFont;
+    src: url("media/font/Norse-Bold.otf");
+}
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -8,10 +14,13 @@ body{
     justify-content: space-between;
 }
 
-img{
+.logo-display .background-image{
+    background-image: url("media/img/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
     height: 100vh;
-    width: auto;
-    object-fit: fill;
-    display: block;
+    width: 200%;
 }
 
+.odin-use{
+    font-family: odinFont;
+}
