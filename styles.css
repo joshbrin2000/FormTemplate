@@ -8,20 +8,26 @@
     margin: 0px;
 }
 
+a{
+    color: whitesmoke;
+}
+
 body{
     display: flex;
     justify-content: space-between;
 }
 
+.left-side{
+    background-image: url("media/img/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+
+    height: 100vh;
+    width: 700px;
+}
+
 .logo-display{
     display: flex;
     justify-content: center;
-
-    background-image: url("media/img/halie-west-25xggax4bSA-unsplash.jpg");
-    background-size: cover;
-    
-    height: 100vh;
-    width: 700px;
 }
 
 .logo-display img{
@@ -47,5 +53,13 @@ body{
 .odin-use{
     font-family: odinFont;
     font-size: 100px;
+    color: whitesmoke;
+}
+
+.reference{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85vh;
     color: whitesmoke;
 }
