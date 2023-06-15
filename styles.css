@@ -93,6 +93,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: 650;
+    padding: 0px 15px;
 }
 
 .form-inputs{
@@ -110,6 +111,12 @@ body{
 .form-inputs > div > div{
     display: flex;
     flex-direction: column;
+}
+
+.form-inputs > div > div > label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(62, 59, 59);
 }
 
 .account-button-div{
