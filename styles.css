@@ -119,6 +119,20 @@ body{
     color: rgb(62, 59, 59);
 }
 
+.form-inputs > div > div > input{
+    height: 25px;
+    width: 250px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.form-inputs > div > div > input:focus{
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 3px 2px 5px grey;
+}
+
 .account-button-div{
     display: flex;
     flex-direction: column;
