@@ -84,7 +84,7 @@ body{
     width: 750px;
 }
 
-.right-side > form{
+.right-side > form > .form-inputs{
     box-shadow: 3px 2px 5px grey;
     padding: 15px;
 }
@@ -136,7 +136,7 @@ body{
 .account-button-div{
     display: flex;
     flex-direction: column;
-    padding: 10px 35px;
+    padding: 50px 35px;
     gap: 20px;
 }
 
